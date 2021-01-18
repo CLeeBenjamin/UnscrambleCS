@@ -1,0 +1,23 @@
+Analysis 
+
+
+Task 0:
+- Time Complexity is O(1) 
+- No mater the input amount, the operation performs in constant time in order to produce desired output  
+
+Task 1: 
+- Time Complexity is O(n) 
+- The time it takes to complete operation is proportional to the size of n.  
+
+Task 2: 
+- Time Complexity is O(n) 
+- This function has 3 for loops but given O(3n), we will drop the coefficient resulting in a simplified worst case of O(n)
+
+Task 3: 
+- Time Complexity is O(nlog(n)) 
+- This task uses two for loops for one function, given it a O(2n) = O(n) and one for loop for the other function. Given it a worst case O(n). However, a sort() method is used to order items from a list, give the task a O(n*log(n)).  
+
+Task 4: 
+- Time Complexity is O(n*log(n))
+- This task uses three for loops, given it a O(3n) = O(n) time complexity. . However, a sort() method is used to put items in order in a list, which gives the task a O(n*log(n)).
+
